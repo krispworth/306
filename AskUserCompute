@@ -1,0 +1,17 @@
+A = 15000 #RatePerDay
+B = 4500 #SoundSystemFee
+C = 3000 #StageDecorFee
+D = 35000 #CateringFee
+V = .12 #eVat
+
+print("\n") #breakline, asks for user's input
+NumberOfDays = int(input("Enter the number of days: "))
+
+#Formula, process of computing
+Amount = A * NumberOfDays
+TotalAmount = Amount + B + C + D
+Tax = TotalAmount * V
+Bill = TotalAmount + Tax
+
+#Print the computation
+print("Bill = ", Bill)
