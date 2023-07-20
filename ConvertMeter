@@ -1,0 +1,23 @@
+print("\n \n")
+print(". . . . . . . . . . . . .")
+
+#ASKING INT INPUT FROM USER
+gram = int(input("Enter gram: "))
+
+K = gram / 1000         #KILOGRAM
+M = gram * 1000         #MILIGRAM
+C = gram * 1000000      #MICROGRAM
+P = gram * 453.6        #POUND
+O = gram / 28.35        #OUNCE
+L = gram / 1000         #LITER
+
+#PRINTS
+print(gram, "gram to kilogram =", K)
+print(gram, "gram to miligram =", M)
+print(gram, "gram to microgram =", C)
+print(gram, "gram to pound =", P)
+print(gram, "gram to ounce =", O)
+print(gram, "gram to liter =", L)
+
+print(". . . . . . . . . . . . .")
+print("\n \n")
